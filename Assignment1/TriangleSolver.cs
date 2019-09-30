@@ -8,7 +8,7 @@ namespace Assignment1
     {
         public static string TriangleType(int len1, int len2, int len3)
             {
-            if ( len2 + len3 >=len1 || len1 + len2 >= len3 || len1 + len3 >= len2)
+            if ( len2 + len3 >=len1 && len1 + len2 >= len3 && len1 + len3 >= len2)
             {
 
                 if (len1 == len2 && len2 == len3 && len3 == len1)

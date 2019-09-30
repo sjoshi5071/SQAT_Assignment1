@@ -8,9 +8,6 @@ namespace Assignment1
 
         static void Main(string[] args)
         {
-
-            Console.WriteLine("Enter the dimensions as follows: ");
-            Console.ReadLine();
             {
                 
                 string dim;
