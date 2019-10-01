@@ -30,11 +30,11 @@ namespace Assignment1
                         Console.WriteLine("Enter the dimesion for Length 3: ");
                         int.TryParse(Console.ReadLine(), out len3);
 
-                    //calling function
-                    Console.WriteLine(TriangleSolver.TriangleType(len1, len2, len3));
+                         //calling function
+                         Console.WriteLine(TriangleSolver.TriangleType(len1, len2, len3));
 
-                    //If wants to continue or wants to exit
-                    Console.WriteLine("Enter 1 for entering the dimensions and 2 to exit.");
+                         //If wants to continue or wants to exit
+                         Console.WriteLine("Enter 1 for entering the dimensions and 2 to exit.");
                         dim = Console.ReadLine();
                         int.TryParse(dim, out idim);
                     
